@@ -14,7 +14,7 @@
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
 				<li><a href="price.html">Прайс-лист</a></li>
-				<li class="site-navigation-current"><a href="shop.html">Магазин</a></li>
+				<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
 				<li><a href="contacts.html">Контакты</a></li>
 			</ul>
 			<ul class="user-navigation">
@@ -23,14 +23,14 @@
 		</nav>
 	</header>
 	<main class="container">
-		<h1>Средства для ухода</h1>
+		<h1 class="page-title">Средства для ухода</h1>
 		<ul class="resourses-list">
-			<li>Главная</li>
-			<li>Магазин</li>
-			<li>Средства для ухода</li>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="catalog.html">Магазин</a></li>
+			<li class="resourses-current">Средства для ухода</li>
 		</ul>
 		<section class="manufacturers">
-			<h2>Производители:</h2>
+			<h2 class="mafacturers-filter">Производители:</h2>
 			<ul class="manufacturers-list">
 				<li>Baxter of California</li>
 				<li>Mr Natty</li>
@@ -41,92 +41,152 @@
 			</ul>
 		</section>
 		<section class="goods-groups">
-			<h2>Группы Товаров:</h2>
+			<h2 class="goods-filter">Группы Товаров:</h2>
 			<ul class="goods-list">
 				<li>Бритвенные Пренадлежности</li>
 				<li>Средства Ухода</li>
 				<li>Аксессуары</li>
 			</ul>
 		</section>
-		<span><a href="#">Показать</a></span>
-		<section class="goods-items">
-			<section class="trip-set">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Набор для путешествий "Baxter of California"</p>
-				<b>2900 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<section class="conditioner">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Увлажняющий кондиционер "Baxter of California"</p>
-				<b>750 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<section class="hair-gel">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Гель для волос "Suavetico"</p>
-				<b>290 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<section class="hair-clay">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Глина для укладки волос "American Crew"</p>
-				<b>500 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<section class="hair-gel-crew">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Гель для волос "American Crew"</p>
-				<b>300 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<section class="shaving-set">
-				<img src="http://placehold.it/150x100" alt="baxter-set">
-				<p>Набор для бритья "Baxter of California"</p>
-				<b>3900 Р</b>
-				<a href="button">купить</a>
-			</section>
-			<article class="pages-list">
-				<span class="first-page">
-					<a href="#">1</a>
-				</span>
-				<span class="second-page">
-					<a href="#">2</a>
-				</span>
-				<span class="third-page">
-					<a href="#">3</a>
-				</span>
-				<span class="fourth-page">
-					<a href="#">4</a>
-				</span>
-			</article>
+		<a href="#"><span>Показать</span></a>
+		<section class="catalog">
+			<ul class="catalog-list">
+				<li class="set-item">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category">Набор для путешествий</span>
+							<span class="catalog-item-title">"Baxter of California"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="catalog-item.html">
+							<img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий 'Bexter of California'">
+						</a>	
+					</p>
+					<p class="catalog-item-price">
+						<b>2900 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>
+				</li>	
+				<li class="conditioner-item">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category">Увлажняющий кондиционер</span>
+							<span class="catalog-item-title">"Baxter of California"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="catalog-item.html">	
+							<img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер 'Baxter of California'">
+						</a>
+					</p>
+					<p class="catalog-item-price">	
+						<b>750 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>	
+				</li>
+				<li class="hair-gel-item">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category">Гель для волос</span>
+							<span class="catalog-item-title">"Suavetico"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="catalog-item.html">
+							<img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос 'Suavetico'">
+						</a>
+					</p>
+					<p class="catalog-item-price">
+						<b>290 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>
+				</li>	
+				<li class="hair-clay-item">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category">Глина для укладки волос</span> 
+							<span class="catalog-item-title">"American Crew"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="catalog-item.html">
+							<img src="img/product-4.jpg" width="220" height="165" alt="Глина для укладки волос 'American Crew">
+						</a>
+					</p>
+					<p class="catalog-item-price">
+						<b>500 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>
+				</li>
+				<li class="hair-gel-item2">
+					<h3>
+						<a>
+							<span class="catalog-category">Гель для волос</span>
+							<span class="catalog-item-title">"American Crew"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="img/product-5">
+							<img src="catalog-item.html" alt="Гель для волос 'American Crew">
+						</a>
+					</p>
+					<p class="catalog-item-price">
+						<b>300 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>
+				</li>
+				<li class="shaving-set">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category">Набор для бритья</span>
+							<span class="catalog-item-title">"Baxter of California"</span>
+						</a>
+					</h3>
+					<p class="catalog-item-image">
+						<a href="catalog-item.html">
+							<img src="img/product-6" width="220" height="165" alt="Набор для бритья 'Baxter of California'">
+						</a>
+					</p>
+					<p class="catalog-item-price">
+						<b>3900 Р</b>
+						<a class="button" href="#">купить</a>
+					</p>
+				</li>
+			</ul>
+			<ul class="pagination-list">
+				<li class="pagination-item"><a href="#">1</a></li>
+				<li class="pagination-item pagination-item-current"><a href="#">2</a></li>
+				<li class="pagination-item"><a href="#">3</a></li>
+				<li class="pagination-item"><a href="#">4</a></li>
+			</ul>
 		</section>
 	</main>
 	<footer>
 		<p class="adress">
 			Барбершоп "Бородинсий"<br>
 			Адрес: Г.Санкт-Петербург,Ул.Б.Конюшенная,Д.19/8<br>
-			<span class="map">Как нас найти?</span><br>
+			<a href="map.html">Как нас найти?</a><br>
 			Телефон: +7(495)666-02-66
 		</p>
-		<b>Давайте Дружить!</b>
-		<section class="social-links">
-			<span class="vk-link">
+		<div class="footer-social">
+			<b>Давайте Дружить!</b>
+			<ul>
+			<li class="vk-link">
 				<a href="#">VK</a>
-			</span>
-			<span class="facebook-link">
+			</li>
+			<li class="facebook-link">
 				<a href="#">F</a>
-			</span>
-			<span class="insta-link">
+			</li>
+			<li class="insta-link">
 				<a href="#">IM</a>
-			</span>
-		</section>
-		<b>Разработано:</b>
-		<section class="dev-link">
-			<span class="develop">
-				<a href="#">HTML ACADEMY</a>
-			</span>
-		</section>	
+			</li>
+			</ul>	
+		</div>
+		<p class="footer-copyright">
+			<b>Разработано:</b>
+			<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+		</p>
 	</footer>
 </body>
 </html>
