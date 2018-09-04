@@ -48,11 +48,14 @@
 		</section>
 		<section class="goods-groups">
 			<h2 class="goods-filter">Группы Товаров:</h2>
-			<ul class="goods-list">
-				<li>Бритвенные Пренадлежности</li>
-				<li>Средства Ухода</li>
-				<li>Аксессуары</li>
-			</ul>
+			<form class="goods-list" action="https://echo.htmlacademy.ru" method="post">
+				<input type="radio" name="Бритвенные Пренадлежности" id="shave-kit">
+				<label for="shave-kit">Бритвенные Пренадлежности</label>
+				<input type="radio" name="Средства Ухода" id="care-products" checked>
+				<label for="care-products">Средства Ухода</label>
+				<input type="radio" name="Аксессуары" id="accessories">
+				<label for="accessories">Аксессуары</label>
+			</form>
 		</section>
 		<a href="#"><span>Показать</span></a>
 		<section class="catalog">
