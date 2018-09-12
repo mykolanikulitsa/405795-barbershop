@@ -38,3 +38,39 @@ a {
 .user-navigation a:focus {
 	background-color: #242424;
 }
+.heading {
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 700;
+}
+.resourses-list {
+	font-size: 14px;
+	line-height: 20px;
+	list-style: none;
+}
+.resourses-list a {
+	color: #000000;
+}
+.resourses-list a:hover,
+.resourses-list a:focus {
+	background-color: #e3d6d6;
+}
+.resourses-list li:last-child {
+	color: #aba9a7;
+}
+.checkbox-form {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+}
+.radio-form {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+}
+.filter-button {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 18px;
+}
