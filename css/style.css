@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+    background-color: #f7f4f1;
+	background-image: url("img/background.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+a {
+	text-decoration: none;
+}
+.header-nav {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+
+	background-color: #000000;
+}
+.nav-list,
+.user-navigation {
+	list-style: none;
+}
+.nav-list a,
+.user-navigation a {
+	color: #ffffff;
+}
+.nav-list a:hover,
+.nav-list a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color: #242424;
+}
