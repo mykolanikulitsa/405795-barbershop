@@ -74,3 +74,73 @@ a {
 	font-size: 13px;
 	line-height: 18px;
 }
+.filters fieldset {
+	border: none;
+}
+.filters ul {
+	list-style: none;
+	line-height: 18px;
+}
+.filter-input:hover + label,
+.filter-input:focus + label {
+	color: #663d15;
+
+	opacity: 0.5;
+}
+.catalog-list {
+	list-style: none;
+}
+.set-item {
+	background-color: #f8f8f8;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.set-item:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.set-item a {
+	color: #000000;
+}
+.set-item h3 {
+	font-size: 14px;
+	line-height: 18px;
+}
+.catalog-category {
+	text-transform: none;
+}
+.catalog-item-price b {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+
+	background-color: #e5e5e5;
+}
+.catalog-item-price .button {
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #000000;
+}
+.pagination-list {
+	list-style: none;
+}
+.pagination-item a {
+	color: #ffffff;
+
+	background-color: #000000;
+}
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #663d15;
+}
+.pagination-item-current a {
+	color: #000000;
+
+    background-color: #ffffff;
+}
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+	color: #000000;
+	background-color: #ffffff;
+}
+/* catalog.html style finished, only footer left */
