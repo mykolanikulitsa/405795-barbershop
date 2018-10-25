@@ -36,7 +36,6 @@ a {
 	font-size: 16px;
 	line-height: 20px;
 	color: #ffffff;
-
 	background-color: #000000;
 }
 .nav-list,
@@ -99,7 +98,6 @@ a {
 .filter-input:hover + label,
 .filter-input:focus + label {
 	color: #663d15;
-
 	opacity: 0.5;
 }
 .catalog-list {
@@ -127,7 +125,6 @@ a {
 }
 .pagination-item a {
 	color: #ffffff;
-
 	background-color: #000000;
 }
 .pagination-item a:hover,
@@ -173,6 +170,9 @@ a {
 .footer-contacts a:hover,
 .footer-contacts a:focus {
 	text-decoration: none;
+}
+.footer-social {
+	text-align: center;
 }
 .footer-social ul {
 	list-style: none;
@@ -224,3 +224,74 @@ a {
 .set-info ul {
 	list-style: none;
 }
+.visually-hidden {
+	display: hidden;
+}
+
+/* ---Layout styles--- */
+
+html,
+body {
+	min-width: 1122px;
+	min-height: 1750px;
+}
+
+/* ---Layout styles for header--- */
+
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-header {
+	margin-bottom: 50px;
+}
+.header-nav {
+	display: flex;
+	align-items: flex-start;
+}
+.header-logo {
+	order: 0;
+	width: 111px;
+	height: 24px;
+	padding: 23px 20px;
+}
+.main-navigation-wrapper {
+	width: 100%;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+/* come back here later and decide which container to delete, maybe i can wrap navigation into section and try it out */
+
+
+.main-navigation-wrapper .container {
+	display: flex;
+	justify-content: space-between;
+}
+.nav-list {
+	width: 620px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.user-navigation {
+	width: 140px;
+	margin: 0;
+	margin-left: auto;
+	padding: 0;
+}
+
+
+/* ---Layout styles for main--- */ 
+.resourses-list {
+	display: flex;
+	width: 310px;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+}
+
