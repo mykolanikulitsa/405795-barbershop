@@ -166,22 +166,24 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
-.adress a {
+.footer-contacts a {
 	color: #ffffff;
 	text-decoration: underline;
 }
-.adress a:hover,
-.adress a:focus {
+.footer-contacts a:hover,
+.footer-contacts a:focus {
 	text-decoration: none;
-}
-.footer-social {
-	text-align: center;
 }
 .footer-social ul {
 	list-style: none;
 }
-.social-button a {
+.social {
 	color: #ffffff;
+}
+.social:hover,
+.social:focus {
+	color: #000000;
+	background-color: #ffffff;
 }
 .footer-copyright {
 	text-align: center;
