@@ -57,19 +57,19 @@ a {
 	line-height: 42px;
 	font-weight: 700;
 }
-.resourses-list {
+.breadcrumbs {
 	font-size: 14px;
 	line-height: 20px;
 	list-style: none;
 }
-.resourses-list a {
+.breadcrumbs a {
 	color: #000000;
 }
-.resourses-list a:hover,
-.resourses-list a:focus {
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
 	background-color: #e3d6d6;
 }
-.resourses-list li:last-child {
+.breadcrumbs li:last-child {
 	color: #aba9a7;
 }
 .checkbox-form {
@@ -102,6 +102,8 @@ a {
 }
 .catalog-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 .set-item {
 	background-color: #f8f8f8;
@@ -121,6 +123,8 @@ a {
 	text-transform: none;
 }
 .pagination-list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 .pagination-item a {
@@ -163,6 +167,11 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+.footer-contacts {
+	width: 320px;
+	margin: 0;
+	margin-right: 80px;
+}
 .footer-contacts a {
 	color: #ffffff;
 	text-decoration: underline;
@@ -172,6 +181,8 @@ a {
 	text-decoration: none;
 }
 .footer-social {
+	width: 145px;
+	margin: 0;
 	text-align: center;
 }
 .footer-social ul {
@@ -186,7 +197,9 @@ a {
 	background-color: #ffffff;
 }
 .footer-copyright {
-	text-align: center;
+	width: 150px;
+	margin: 0;
+	margin-left: auto;
 }
 .footer-copyright a {
 	color: #ffffff;
@@ -286,12 +299,56 @@ body {
 
 
 /* ---Layout styles for main--- */ 
-.resourses-list {
-	display: flex;
-	width: 310px;
-	justify-content: space-between;
-	align-items: flex-start;
+.heading {
 	margin: 0;
+	margin-bottom: 15px;
 	padding: 0;
 }
+.breadcrumbs {
+	margin: 0;
+	margin-bottom: 50px;
+	padding: 0;
+}
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.filters {
+	width: 180px;
+}
+.catalog {
+	width: 700px;
+}
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+.set-item {
+	width: 220px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.set-item:nth-child(3n) {
+	margin-right: 0;
+}
+.pagination-list {
+	display: flex;
+	justify-content: space-between;
+	width: 160px;
+}
+
+
+/* footer layout */
+
+.main-footer {
+	margin-top: 45px;
+	padding: 60px 0;
+}
+.main-footer .container {
+	display: flex;
+}
+
+
+
 
